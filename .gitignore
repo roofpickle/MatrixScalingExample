@@ -1,0 +1,15 @@
+*.mgcontent
+*.mgcb.cache
+.vscode/
+obj/
+
+# Ignore bin folders in all projects
+**/bin/*
+
+# Ignore compilation artifacts not associated with mgcb
+*.dll
+*.exe
+*.pdb
+
+#Ignore mac shit
+*.DS_STORE
